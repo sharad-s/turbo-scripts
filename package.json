@@ -1,0 +1,20 @@
+{
+  "name": "turbo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run build && node build/test/index.js",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^5.6.0"
+  },
+  "devDependencies": {
+    "typechain": "^7.0.1",
+    "typescript": "^4.6.2"
+  }
+}
